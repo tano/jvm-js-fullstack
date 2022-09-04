@@ -1,7 +1,7 @@
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class AlbumListItem(var name: String, var year: String) {
+data class AlbumListItem(val name: String, val year: String) {
     val id: Int = name.hashCode()
 
     companion object {
