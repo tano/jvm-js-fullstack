@@ -1,0 +1,12 @@
+POST http://localhost:9090/albumList
+Content-Type: application/json
+
+{
+  "desc": "Peppers 🌶",
+  "priority": 5
+}
+
+###
+
+GET  http://localhost:9090/albumList
+Content-Type: application/json
